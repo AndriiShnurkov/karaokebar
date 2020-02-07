@@ -1,0 +1,43 @@
+$font-stack: -apple-system,
+BlinkMacSystemFont,
+Roboto,
+"Open Sans",
+"Helvetica Neue",
+sans-serif;
+
+@import "./categories.scss";
+@import "./footer.scss";
+@import "./gallery.scss";
+@import "./guestsphoto.scss";
+@import "./header.scss";
+@import "./musicpromoute.scss";
+@import "./propositions.scss";
+@import "./reservation.scss";
+@import "./slider.scss";
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-stack;
+
+  #logo {
+    width: 10rem;
+  }
+
+  .wrapper {
+    img {
+      width: 20rem;
+    }
+  }
+}
