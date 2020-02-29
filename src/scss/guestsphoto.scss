@@ -1,3 +1,138 @@
-.guestsphoto {
-    background-color: palevioletred;
+.guests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
 }
+
+.guests__title {
+    font-family: "Montserrat_Bold";
+    margin-bottom: 34px;
+
+}
+
+.guests__photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo__block {
+    position: relative;
+    height: 280px;
+    width: 269px;
+    overflow: hidden;
+    margin-bottom: 19px;
+}
+
+
+.block__photo1 {
+    position: absolute;
+    left: -139px;
+    top: 5px;
+    width: 494px;
+    height: 274px;
+}
+
+.block__photo {
+    height: 280px;
+    width: 269px;
+}
+
+// .text {
+//     text-align: center;
+//     font-family: Montserrat-Bold;
+//     margin-bottom: 34px;
+// }
+
+
+// @media (min-width: 768px) {
+//     .guestsWrapper {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: wrap;
+//     }
+
+//     .wrapper {
+//         width: 336px;
+//         height: 345px;
+//         margin-right: 20px;
+//         margin-bottom: 20px;
+//     }
+
+//     .photo {
+//         width: 336px;
+//         height: 345px;
+//     }
+
+//     .wrapper:nth-child(2n) {
+//         margin-right: 0;
+//     }
+
+//     .photo1 {
+//         top: -15px;
+//         bottom: 0;
+//         left: -208px;
+//         width: 650px;
+//         height: 360px;
+//     }
+// }
+
+// /* @media (min-width: 768px) and (max-width: 1024px) {}
+
+// @media (min-width: 1025px) and (max-width: 1280px) {}
+
+// @media (min-width: 1281px) {} */
+
+// Timofii
+// .title {
+//     text-align: center;
+// }
+
+// .blockImgScale {
+//     height: 269px;
+//     width: 280px;
+//     position: relative;
+//     overflow: hidden;
+//     margin: 0 auto;
+//     margin-top: 19px;
+// }
+
+// .blockImgScaleItem {
+//     position: absolute;
+//     left: -139px;
+//     width: 494px;
+//     height: 274px;
+// }
+
+// .blockImg {
+//     margin: 0 auto;
+//     margin-top: 19px;
+//     height: 271px;
+//     width: 282px;
+//     overflow: hidden;
+// }
+
+// @media (min-width: 768px) {
+//     .imagesWrapper {
+//         display: flex;
+//         flex-wrap: wrap;
+//         justify-content: center;
+//     }
+
+//     .blockImgScale {
+//         /* height: 390px;
+//         width: 350px; */
+//     }
+
+// }
+
+// @media (min-width: 768px) and (orientation: landscape) {}
+
+// @media (min-width: 1280px) {}
+
+// @media (min-width: 1280px) and (orientation: landscape) {}
+
+// @media (min-width: 1920px) {}
+
+// @media (min-width: 1920px) and (orientation: landscape) {}

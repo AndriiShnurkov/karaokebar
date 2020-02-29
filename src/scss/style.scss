@@ -1,22 +1,17 @@
+@import "./font.scss";
+@import "./header.scss";
+@import "./slider.scss";
+@import "./propositions.scss";
 @import "./categories.scss";
-@import "./footer.scss";
+@import "./musicpromoute.scss";
+@import "./reservation.scss";
 @import "./gallery.scss";
 @import "./guestsphoto.scss";
-@import "./header.scss";
-@import "./musicpromoute.scss";
-@import "./propositions.scss";
-@import "./reservation.scss";
-@import "./slider.scss";
-
-// @font-face {
-//   font-family: "Roboto";
-//   font-style: normal;
-//   font-weight: 400;
-//   src: url(../fonts/Roboto-Regular.ttf);
-// }
+@import "./footer.scss";
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
 }
