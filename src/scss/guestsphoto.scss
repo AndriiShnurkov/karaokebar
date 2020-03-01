@@ -8,13 +8,11 @@
 .guests__title {
     font-family: "Montserrat_Bold";
     margin-bottom: 34px;
-
 }
 
 .guests__photo {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .photo__block {
@@ -25,13 +23,19 @@
     margin-bottom: 19px;
 }
 
-
 .block__photo1 {
     position: absolute;
-    left: -139px;
-    top: 5px;
-    width: 494px;
-    height: 274px;
+    left: -133px;
+    width: 476px;
+    height: 284px;
+}
+
+.block__photo2 {
+    position: absolute;
+    left: 1px;
+    top: -71px;
+    width: 348px;
+    height: 503px;
 }
 
 .block__photo {
@@ -45,13 +49,43 @@
 //     margin-bottom: 34px;
 // }
 
+@media (min-width: 768px) {
+    .guests {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
 
-// @media (min-width: 768px) {
-//     .guestsWrapper {
-//         display: flex;
-//         flex-direction: row;
-//         flex-wrap: wrap;
-//     }
+
+    .guests__photo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 39px;
+    }
+
+    .photo__block {
+        width: 334px;
+        height: 343px;
+        overflow: hidden;
+    }
+
+    .block__photo1 {
+        left: -208px;
+        top: -17px;
+        width: 650px;
+        height: 360px;
+    }
+
+    .block__photo3 {
+        left: -288px;
+        width: 509px;
+        height: 343px;
+    }
+
+}
 
 //     .wrapper {
 //         width: 336px;

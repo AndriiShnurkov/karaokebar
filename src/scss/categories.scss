@@ -66,14 +66,16 @@
     width: 239px;
 }
 
+@media (min-width: 768px) and (max-width: 1279px) {
 
-@media (min-width: 768px) and (max-width:1279px) {
+    //vhgfgcgnahs
     .categories {
         display: flex;
-        justify-content: center;
+        width: 688px;
+        margin: 0 auto;
     }
 
-    .categories-menu {
+    .categories__menu {
         width: 344px;
         height: 325px;
         background-blend-mode: multiply;
@@ -81,7 +83,6 @@
         background-position-x: -88px;
         background-position-y: -105px;
         background-size: 130%;
-        background-image: url(../favicon/pic1.jpg);
         color: white;
         transform: scaleX(-1);
     }
@@ -95,7 +96,6 @@
         color: #f3820a;
         font-size: 30px;
         line-height: 78px;
-        font-family: 'Lobster', cursive;
         text-align: left;
         margin-left: 40px;
     }
@@ -114,7 +114,6 @@
         font-size: 28px;
         text-align: left;
         margin-left: 40px;
-        font-family: 'Montserrat', sans-serif;
         line-height: 43px;
     }
 
@@ -128,7 +127,7 @@
         width: 344px;
         height: 325px;
         text-align: left;
-        background-image: url(../favicon/pic2.jpg);
+
         background-blend-mode: multiply;
         background-color: gray;
         background-size: 160%;
@@ -137,13 +136,13 @@
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1919px) {
+@media (min-width: 1280px) {
     .categories {
         display: flex;
         justify-content: center;
     }
 
-    .categories-menu {
+    .categories__menu {
         width: 600px;
         height: 325px;
         background-blend-mode: multiply;
@@ -151,7 +150,6 @@
         background-position-y: -245px;
         background-position-x: -30px;
         background-size: 110%;
-        background-image: url(../favicon/pic1.jpg);
         color: white;
         transform: scaleX(-1);
     }
@@ -165,7 +163,6 @@
         color: #f3820a;
         font-size: 30px;
         line-height: 78px;
-        font-family: 'Lobster', cursive;
         text-align: left;
         margin-left: 70px;
     }
@@ -198,7 +195,6 @@
         width: 600px;
         height: 325px;
         text-align: left;
-        background-image: url(../favicon/pic2.jpg);
         background-blend-mode: multiply;
         background-color: gray;
         background-size: 140%;
@@ -222,7 +218,6 @@
         background-position-y: -325px;
         background-position-x: 0px;
         background-size: 100%;
-        background-image: url(../favicon/pic1.jpg);
         color: white;
         transform: scaleX(-1);
     }
@@ -269,7 +264,6 @@
         width: 800px;
         height: 427px;
         text-align: left;
-        background-image: url(../favicon/pic2.jpg);
         background-blend-mode: multiply;
         background-color: gray;
         background-size: 120%;
